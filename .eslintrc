@@ -1,0 +1,28 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "google"
+  ],
+  "parser": "babel-eslint",
+  "plugins": [
+    "import",
+    "mocha"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2017,
+    "sourceType": "module"
+  },
+  "env": {
+    "node": true,
+    "mocha": true
+  },
+  "rules": {
+    "mocha/no-exclusive-tests": "error",
+    "no-console":0,
+    "no-tabs":"off",
+    "indent": [
+      2,
+      "tab"
+    ]
+  }
+}
