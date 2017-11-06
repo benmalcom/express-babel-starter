@@ -1,9 +1,11 @@
+
+const PORT = process.env.PORT || 3000;
 module.exports = {
 	app:
     {
     	name: 'todo-api',
-    	port: process.env.PORT || 3000,
-    	baseUrl: `http://localhost:${process.env.PORT || 3000}`,
+    	port: PORT,
+    	baseUrl: `http://localhost:${PORT}`,
     },
 	api:
     {
