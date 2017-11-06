@@ -4,7 +4,7 @@
   "private": true,
   "main": "dist/app.js",
   "scripts": {
-    "prestart": "npm run -s build",
+    "prestart": "npm run build",
     "start": "node dist/app",
     "dev": "nodemon src/app --exec \"npm run lint && node -r babel-register\"",
     "clean": "rimraf dist",
