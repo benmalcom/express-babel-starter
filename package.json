@@ -1,12 +1,12 @@
 {
-  "name": "todo",
-  "version": "0.0.0",
-  "private": true,
+  "name": "express-babel-starter",
+  "version": "0.0.1",
+  "private": false,
   "main": "dist/app.js",
   "scripts": {
     "prestart": "npm run build",
     "start": "node dist/app",
-    "dev": "nodemon src/app --exec \"npm run lint && node -r babel-register\"",
+    "start:dev": "nodemon src/app --exec \"npm run lint && node -r babel-register\"",
     "clean": "rimraf dist",
     "build": "npm run clean && mkdir dist && babel src -s -d dist",
     "test": "echo 'No tests'",

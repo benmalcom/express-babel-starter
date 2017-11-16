@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="JavaScriptLibraryMappings">
-    <file url="PROJECT" libraries="{eslint-plugin-prettier-DefinitelyTyped, express-DefinitelyTyped, lodash-DefinitelyTyped, mocha-DefinitelyTyped, mongoose-DefinitelyTyped, node-DefinitelyTyped, q-DefinitelyTyped, supertest-DefinitelyTyped, underscore-DefinitelyTyped, validatorjs-DefinitelyTyped}" />
-  </component>
-</project>
