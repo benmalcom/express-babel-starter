@@ -1,6 +1,7 @@
 {
   "name": "express-babel-starter",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "description": "An unopinionated express starter kit with support for es6+ features using babel",
   "private": false,
   "main": "dist/app.js",
   "scripts": {
@@ -20,6 +21,7 @@
     "config": "^1.27.0",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.3",
+    "ejs": "^2.5.7",
     "express": "~4.15.2",
     "morgan": "~1.8.1",
     "rimraf": "^2.6.2"
