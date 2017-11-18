@@ -22,7 +22,7 @@
     "body-parser": "~1.17.1",
     "config": "^1.27.0",
     "cookie-parser": "~1.4.3",
-    "debug": "~2.6.3",
+    "debug": "^2.6.9",
     "ejs": "^2.5.7",
     "express": "~4.15.2",
     "morgan": "~1.8.1",
