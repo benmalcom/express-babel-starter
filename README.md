@@ -2,7 +2,11 @@
 A starter scaffold for your express projects using babel so you can take advantage of es6+ features in a nodejs environment
 This scaffold does not in anyway enforce how you should structure your project. You can tweak it to suit your needs.
 
-It's a small improvement over [vmasto's express-babel](https://github.com/vmasto/express-babel)
+Project generated with [express-generator](https://expressjs.com/en/starter/generator.html).
+
+It's a small improvement over [babel's official guide](https://github.com/babel/example-node-server) and [vmasto's express-babel](https://github.com/vmasto/express-babel)
+
+
 #### What's Included?
 * [Expressjs](https://expressjs.com) as the web framework
 * Support for es6+(es2015, es2016, es2017....) features thanks to [Babel](https://babeljs.io)
@@ -19,7 +23,7 @@ It's a small improvement over [vmasto's express-babel](https://github.com/vmasto
 ```
 git clone https://github.com/benmalcom/express-babel-starter.git
 ```
-<span style="color:blue">cd</span> express-babel-starter
+`cd express-babel-starter`
 
 <span style="color:gray"># Make it your own</span>
 ```
@@ -54,4 +58,15 @@ npm test
 ##### Todo
 * Environment Variables
 * Deployment
-* FAQs?
+
+##### Disclosure
+There has always been debates online whether to use babel-transpilled codes on the server
+or not. Personally, I think it's fine and I've found this setup to be a sensible approach in doing so.
+That said, I'd suggest to take anything you read online with a grain of salt and refrain from blindly using boilerplates without first investigating personally.
+Node is very rapidly converging with the latest ECMAScript specification, and there's mostly full native support for ES2015 and ES2016. The need to transpile on the server is way smaller nowadays, albeit the language is constantly improving and transpiling will probably always be a part of our workflow. At the time of this writing the main benefits are mainly ES6 module syntax and async/await without flags.
+
+>This opinion is adapted from [vmasto](https://github.com/vmasto) in his [express-babel](https://github.com/vmasto/express-babel) project
+>because I agree with it.
+
+In any case, you can simply remove transpilation and keep everything else that this kit has to offer.
+If you see anything that needs improvement feel free to open an issue for discussion!
