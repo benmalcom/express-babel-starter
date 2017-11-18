@@ -18,7 +18,7 @@ It's a small improvement over [vmasto's express-babel](https://github.com/vmasto
 <span style="color:gray"># Clone the project</span>
 ```
 git clone https://github.com/benmalcom/express-babel-starter.git
-cd express-babel-starter
+<span style="color:blue">cd</span> express-babel-starter
 ```
 <span style="color:gray"># Make it your own</span>
 ```
