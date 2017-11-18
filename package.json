@@ -29,16 +29,21 @@
     "rimraf": "^2.6.2"
   },
   "keywords": [
-    "express",
     "babel",
-    "boilerplate",
-    "scaffold",
     "es6",
+    "es7",
+    "starter",
+    "boilerplate",
+    "express-babel-boilerplate",
+    "nodejs",
+    "js",
+    "mocha",
+    "eslint",
+    "babel-cli",
+    "seed",
+    "express-babel-seed",
     "es2015",
-    "es2016",
-    "es2017",
-    "jest",
-    "eslint"
+    "es2016"
   ],
   "devDependencies": {
     "babel-eslint": "^8.0.1",
