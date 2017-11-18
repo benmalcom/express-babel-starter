@@ -1,15 +1,15 @@
-##Express Babel Starter
+## Express Babel Starter
 A starter scaffold for your express projects using babel so you can take advantage of es6+ features in a nodejs environment
 This scaffold does not in anyway enforce how you should structure your project. You can tweak it to suit your needs.
 It's a small improvement over [vmasto's express-babel](https://github.com/vmasto/express-babel)
-####What's Included?
+#### What's Included?
 * [Expressjs](https://expressjs.com) as the web framework
 * Support for es6+(es2015, es2016, es2017....) features thanks to [Babel](https://babeljs.io)
 * Your codes are automatically polyfilled based on your run time environment by [babel-preset-env](https://github.com/babel/babel/tree/master/experimental/babel-preset-env)
 * There's linting option with [ESlint](https://eslint.org)
 * Testing with [Mocha](https://mochajs.org)
 
-####Getting Started
+#### Getting Started
 
 
 
@@ -27,7 +27,7 @@ rm -rf .git && git init (for windows users, delete .git folder)
 npm install
 ``` 
  If you use [Yarn](https://yarnpkg.com), just replace `npm` with `yarn` in the commands
-#####Start Your development
+##### Start Your development
 ```
 npm run start:dev
 ```
@@ -48,7 +48,7 @@ You can start the test runner in watch mode with
 ```
 npm test
 ```
-##### //Todo
+##### Todo
 * Environment Variables
 * Deployment
 * FAQs?
