@@ -11,7 +11,7 @@
     "start": "node dist/app",
     "start:dev": "nodemon src/app --exec \"npm run lint && node -r babel-register\"",
     "clean": "rimraf dist",
-    "build": "npm run clean && mkdir dist && babel src -s -d dist",
+    "build": "npm run clean && mkdir dist && babel src/ -s -d dist",
     "test": "mocha --exit --require babel-register test/",
     "lint": "esw src"
   },

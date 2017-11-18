@@ -10,7 +10,7 @@ import routes from './routes';
 const app = express();
 
 app.disable('x-powered-by'); // disable x-powered-by
-app.set('views', path.join(__dirname, 'views'));
+app.set('views', path.join(__dirname, '../views'));
 app.set('view engine', 'ejs');
 app.set('port', config.get('app.port'));
 
